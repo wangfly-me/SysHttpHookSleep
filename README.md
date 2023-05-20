@@ -13,6 +13,7 @@ Shellcode：异或xor加密+Base64编码+AES加密+Base64编码+字符串反转�
 反虚拟机：注册表+文件+进程+内存。<br />
 
 ## 操作步骤
+工具在release中下载。
 先生成stagerless的raw木马，按顺序分别使用enc.py、AES_Shellcode.exe、rev.py生成b.txt文件，并将其部署在服务器端。
 
 其次将URL使用URL_XOR.exe进行加密，并分成两段填入str1和str2参数中。
