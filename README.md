@@ -7,7 +7,7 @@ https://github.com/mgeeky/ShellcodeFluctuation
 https://github.com/TheD1rkMtr/BlockOpenHandle
 
 ## 主要功能
-Shellcode：异或xor加密+Base64编码+AES加密+Base64编码+字符串反转。<br />
+Shellcode：异或xor加密+Base64编码+AES加密+字符串反转。<br />
 加载方式：URL加密+远程加载+Syswhispers上线。<br />
 内存规避：HOOK Sleep函数+内存xor加密+System权限打开句柄。<br />
 反虚拟机：注册表+文件+进程+内存。<br />
