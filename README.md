@@ -16,14 +16,14 @@ Shellcode：异或xor加密+Base64编码+AES加密+字符串反转。<br />
 **加密编码工具在release中下载。**
 
 先生成stagerless的raw木马，按顺序分别使用enc.py、AES_Shellcode.exe、rev.py生成b.txt文件，并将其部署在服务器端。<br />
-![image.png](https://note-picture-wangfly.oss-cn-shanghai.aliyuncs.com/pics/20230521013200.png)
+![image.png](https://readme-git.oss-cn-chengdu.aliyuncs.com/images/1.png)
 
 其次将URL使用URL_XOR.exe进行加密，并分成两段填入str1和str2参数中。
-![image.png](https://note-picture-wangfly.oss-cn-shanghai.aliyuncs.com/pics/20230521013341.png)
+![image.png](https://readme-git.oss-cn-chengdu.aliyuncs.com/images/2.png)
 
 最后生成exe，运行上线。
-![image.png](https://note-picture-wangfly.oss-cn-shanghai.aliyuncs.com/pics/20230521013640.png)
+![image.png](https://readme-git.oss-cn-chengdu.aliyuncs.com/images/3.png)
 
 ## 免杀效果
 由于在项目中已经投入使用一段时间，可能有些已经不免杀，可以尝试VMP加壳，或者修改代码二次开发，来规避杀软。
-![image.png](https://note-picture-wangfly.oss-cn-shanghai.aliyuncs.com/pics/20230521014046.png)
+![image.png](https://readme-git.oss-cn-chengdu.aliyuncs.com/images/4.png)
