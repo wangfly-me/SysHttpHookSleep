@@ -26,4 +26,3 @@ Shellcode：异或xor加密+Base64编码+AES加密+字符串反转。<br />
 
 ## 免杀效果
 由于在项目中已经投入使用一段时间，可能有些已经不免杀，可以尝试VMP加壳，或者修改代码二次开发，来规避杀软。
-![image.png](https://readme-git.oss-cn-chengdu.aliyuncs.com/images/4.png)
