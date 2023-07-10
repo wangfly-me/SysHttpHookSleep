@@ -1,5 +1,5 @@
 # SysHttpHookSleep
-**Release编译**
+**Release x64编译**
 
 ## 代码来源
 集合多种方式的ShellcodeLoader，主要代码来自：
